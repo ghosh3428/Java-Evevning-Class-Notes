@@ -1,0 +1,53 @@
+Most important features Java 
+
+Programming Language
+We need to Compile a programming code
+Compile -> convert the program code into a platform dependent code
+
+Every Operating System has its different executable format
+Window -> .exe
+IOS -> .dmz
+Linux -> .elf
+
+1) Platform Independent
+
+	Platform -> operating System
+
+	java uses the concept of bytecode
+	Bytecode -> neutral/platform independent code and we need a virtual machine to run this code
+
+	this virtual machine is JVM(java virtual machine)
+	JDK(Java Devloper's Kit)
+
+	Javac -> convert .java to .class
+
+2) Object Oriented language
+
+3) Garbage Collection 
+
+4) Robust
+
+5) Secure ->java code is 80% compiled and 20% interpreted
+
+6) distributed architecture devlopment
+
+7) scallable
+
+
+Java Execution Process
+
+1) Editting Phase
+	creating the .java file and writting the java code in that file
+2) Compilation Phase 
+	convert .java to .class(bytecode) using javac compiler
+3)Execution Phase
+	execute the .class file using java command
+
+	a)Class Loader 
+		it loads the required classes into the memory to execute the program
+	b)ByteCode Verifier 
+		check if the bytecode has been converted successfully follwing java specified rules and regulations
+	c) JIT -> Just in Time
+		interpret the bytecode line by line and converts into macine dependent code
+	d) execute the machine code
+	e) generate the result
