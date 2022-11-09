@@ -1,0 +1,80 @@
+Looping Construct : 
+
+Start point		: 1
+End point		: 10
+step value		: +1
+
+
+System.out.println(1);
+System.out.println(2);
+System.out.println(3);
+System.out.println(4);
+System.out.println(5);
+System.out.println(6);
+System.out.println(7);
+System.out.println(8);
+System.out.println(9);
+System.out.println(10);
+
+
+1) While(Enter Checking)
+
+	1) create a looping variable
+	2) assign the start value
+	3) provide the end condition using while keyword
+	4) define the body
+	5) set the step value inside the body
+
+int i  = 11;
+while(i<=10);
+{
+	System.out.println(i);
+	i++;
+}
+2) do While(Exit Checking)
+
+1) create a looping variable
+	1)create looping variable
+	2) assign the start value
+	3) use do keyword
+	4) define the body
+	5) set the step value inside the body
+	6) provide the end condition outside the body
+
+int i  = 1;
+do
+{
+	System.out.println(i);
+	i++;
+}while(i<=10);
+2) For
+
+for(start ; end ; step)
+{
+	body
+}
+
+for(int i = 1; i<=10 ; i++)
+{
+	System.out.println(i);
+}
+
+
+Question : Print all even numbers between 1 and 50
+
+int x = 2;
+while(x<=50)
+{
+	S.o.p(x);
+	x = x+ 2;
+} 
+
+
+Question : print factors of a number
+
+
+1) Find the number of factors
+
+if factor == 2
+	Prime Number
+
